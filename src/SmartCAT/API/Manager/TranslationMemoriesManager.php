@@ -11,7 +11,7 @@ namespace SmartCAT\API\Manager;
 
 use Http\Discovery\StreamFactoryDiscovery;
 use Http\Message\MultipartStream\MultipartStreamBuilder;
-use Joli\Jane\OpenApi\Runtime\Client\QueryParam;
+use SmartCAT\API\Helper\QueryParam;
 use SmartCAT\API\Resource\TranslationMemoriesResource;
 
 class TranslationMemoriesManager extends TranslationMemoriesResource

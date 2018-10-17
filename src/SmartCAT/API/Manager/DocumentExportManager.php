@@ -2,7 +2,7 @@
 
 namespace SmartCAT\API\Manager;
 
-use Joli\Jane\OpenApi\Runtime\Client\QueryParam;
+use SmartCAT\API\Helper\QueryParam;
 use SmartCAT\API\Resource\DocumentExportResource;
 
 

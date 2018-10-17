@@ -2,7 +2,7 @@
 
 namespace SmartCAT\API\Resource;
 
-use Joli\Jane\OpenApi\Runtime\Client\QueryParam;
+use SmartCAT\API\Helper\QueryParam;
 use Joli\Jane\OpenApi\Runtime\Client\Resource;
 class CallbackResource extends Resource
 {

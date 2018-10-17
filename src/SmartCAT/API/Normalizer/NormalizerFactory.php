@@ -7,7 +7,7 @@ class NormalizerFactory
     public static function create()
     {
         $normalizers = array();
-        $normalizers[] = new \Joli\Jane\Runtime\Normalizer\ArrayDenormalizer();
+        $normalizers[] = new \Symfony\Component\Serializer\Normalizer\ArrayDenormalizer();
         $normalizers[] = new AccountModelNormalizer();
         $normalizers[] = new MTEngineModelNormalizer();
         $normalizers[] = new AssignableExecutiveModelNormalizer();

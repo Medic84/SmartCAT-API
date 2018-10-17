@@ -2,8 +2,8 @@
 
 namespace SmartCAT\API\Resource;
 
-use Joli\Jane\OpenApi\Runtime\Client\QueryParam;
-use Joli\Jane\OpenApi\Runtime\Client\Resource;
+use SmartCAT\API\Helper\QueryParam;
+
 class AccountResource extends Resource
 {
     /**
